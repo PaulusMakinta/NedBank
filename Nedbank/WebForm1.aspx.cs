@@ -51,7 +51,7 @@ namespace Nedbank
             Queue<int> tokenQueue = (Queue<int>)Session["TokenQueue"];
             if (tokenQueue.Count == 0)
             {
-                textBox.Text = "No customers Yet";
+                textBox.Text = "No customers ";
             }
             else
             {
